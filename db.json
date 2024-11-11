@@ -1,174 +1,156 @@
 {
-    "product":{
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
+    "product": {
+        "count": 6,
+        "next": null,
+        "previous": null,
+        "results": [
+            {
+                "id": 5,
+                "name": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
+                "slug": "redmi-9a-nature-green-2gb-ram-32gb-storage",
+                "price": "6999",
+                "oldPrice": "9999",
+                "category": 3,
+                "info": "13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera. 16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio. Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot. Android v10 operating system with up to 2.0GHz clock speed Mediatek Helio G25 octa-core processor. 5000mAH lithium-polymer large battery with 10W wired charger in-box.",
+                "rating": "4.3",
+                "image": "http://localhost:8000/media/media/redmi9A1_2RDnI4T.jpg",
+                "images": [3, 4, 5]
+            },
+            {
+                "id": 6,
+                "name": "Samsung Galaxy M31 (6GB RAM, 128GB Storage)",
+                "slug": "samsung-galaxy-m31-6gb-ram-128gb-storage",
+                "price": "14999",
+                "oldPrice": "19999",
+                "category": 3,
+                "info": "Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera. 6.4-inch(16.21 centimeters) Super AMOLED - Infinity U Cut Display, FHD+ Resolution (2340 x 1080), 404 ppi pixel density and 16M color support. Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa-core processor, 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM. 6000 mAh Battery.",
+                "rating": "4.5",
+                "image": "http://localhost:8000/media/media/oppophone1.jpg",
+                "images": [19, 20]
+            },
+            {
+                "id": 7,
+                "name": "Apple iPhone 12 Pro Max (128GB)",
+                "slug": "apple-iphone-12-pro-max-128gb",
+                "price": "119999",
+                "oldPrice": "129999",
+                "category": 3,
+                "info": "Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera. 6.4-inch(16.21 centimeters) Super AMOLED - Infinity U Cut Display, FHD+ Resolution (2340 x 1080), 404 ppi pixel density and 16M color support. Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa-core processor, 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM. 6000 mAh Battery.",
+                "rating": "5.0",
+                "image": "http://localhost:8000/media/media/oneplusN1.jpg",
+                "images": [19, 20]
+            },
+            {
+                "id": 8,
+                "name": "The Monk Who Sold His Ferrari",
+                "slug": "the-monk-who-sold-his-ferrari",
+                "price": "159",
+                "oldPrice": "199",
+                "category": 5,
+                "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+                "rating": "2.5",
+                "image": "http://localhost:8000/media/media/monksoldhisferrari_w0lwx0e.jpg",
+                "images": [10]
+            },
+            {
+                "id": 9,
+                "name": "The Immortals of Meluha (Shiva Trilogy)",
+                "slug": "the-immortals-of-meluha-shiva-trilogy",
+                "price": "299",
+                "oldPrice": "399",
+                "category": 5,
+                "info": "The Immortals of Meluha (Shiva Trilogy) is a renowned inspirational fiction. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+                "rating": "3.4",
+                "image": "http://localhost:8000/media/media/greyhumour_CQaoQGt.jpg",
+                "images": [7]
+            },
+            {
+                "id": 10,
+                "name": "Byomkesh Bakshi ki Rahasyamayi Kahaniyan",
+                "slug": "byomkesh-bakshi-ki-rahasyamayi-kahaniyan",
+                "price": "139",
+                "oldPrice": "179",
+                "category": 5,
+                "info": "Byomkesh Bakshi ki Rahasyamayi Kahaniyan is a renowned inspirational fiction. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+                "rating": "3.8",
+                "image": "http://localhost:8000/media/media/bumkeshbakshi_zU1uLBV.jpg",
+                "images": [6]
+            }
+        ]
+    },
+    "category": [
         {
-            "id": 5,
-            "name": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
-            "slug": "redmi-9a-nature-green-2gb-ram-32gb-storage",
-            "price": "6999",
-            "oldPrice": "9999",
-            "category": 3,
-            "info": "\"13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera.\",\r\n                \"16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio\",\r\n                \"Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot\",\r\n                \"Android v10 operating system with upto 2.0GHz clock speed Mediatek Helio G25 octa core processor\",\r\n                \"5000mAH lithium-polymer large battery with 10W wired charger in-box\"",
-            "rating": "4.3",
-            "image": "http://localhost:8000/media/media/redmi9A1_2RDnI4T.jpg",
-            "images": [
-                3,
-                4,
-                5
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Samsung Galaxy M31 (6GB RAM, 128GB Storage)",
-            "slug": "samsung-galaxy-m31-6gb-ram-128gb-storage",
-            "price": "14999",
-            "oldPrice": "19999",
-            "category": 3,
-            "info": "\"Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera\",\r\n        \"6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support\",\r\n        \"Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM\",\r\n        \"6000 mAh Battery\"",
-            "rating": "4.5",
-            "image": "http://localhost:8000/media/media/oppophone1.jpg",
-            "images": [
-                19,
-                20
-            ]
-        },
-        {
-            "id": 7,
-            "name": "Apple iPhone 12 Pro Max (128GB)",
-            "slug": "apple-iphone-12-pro-max-128gb",
-            "price": "119999",
-            "oldPrice": "129999",
-            "category": 3,
-            "info": "\"Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera\",\r\n        \"6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support\",\r\n        \"Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM\",\r\n        \"6000 mAh Battery\"",
-            "rating": "5.0",
-            "image": "http://localhost:8000/media/media/oneplusN1.jpg",
-            "images": [
-                19,
-                20
-            ]
-        },
-        {
-            "id": 8,
-            "name": "The Monk Who Sold His Ferrari",
-            "slug": "the-monk-who-sold-his-ferrari",
-            "price": "159",
-            "oldPrice": "199",
-            "category": 5,
-            "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
-            "rating": "2.5",
-            "image": "http://localhost:8000/media/media/monksoldhisferrari_w0lwx0e.jpg",
-            "images": [
-                10
-            ]
-        },
-        {
-            "id": 9,
-            "name": "The Immortals of Meluha (Shiva Trilogy)",
-            "slug": "the-immortals-of-meluha-shiva-trilogy",
-            "price": "299",
-            "oldPrice": "399",
-            "category": 5,
-            "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
-            "rating": "3.4",
-            "image": "http://localhost:8000/media/media/greyhumour_CQaoQGt.jpg",
-            "images": [
-                7
-            ]
-        },
-        {
-            "id": 10,
-            "name": "Byomkesh Bakshi ki Rahasyamayi Kahaniyan",
-            "slug": "byomkesh-bakshi-ki-rahasyamayi-kahaniyan",
-            "price": "139",
-            "oldPrice": "179",
-            "category": 5,
-            "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
-            "rating": "3.8",
-            "image": "http://localhost:8000/media/media/bumkeshbakshi_zU1uLBV.jpg",
-            "images": [
-                6
-            ]
-        }
-    ]
-},
-    "category":[{
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": {
-            "id": 1,
-            "name": "Cloth",
-            "slug": "cloth",
-            "image": "http://localhost:8000/media/media/saaree.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Mobiles",
-            "slug": "mobiles",
-            "image": "http://localhost:8000/media/media/iphonXR1.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Laptop",
-            "slug": "laptop",
-            "image": "http://localhost:8000/media/media/gamingLaptop1.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Books",
-            "slug": "books",
-            "image": "http://localhost:8000/media/media/monksoldhisferrari.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Other",
-            "slug": "other",
-            "image": "http://localhost:8000/media/media/Straightener2.jpg"
-        }
-    ]
-}
-,
-    "order":{
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 11,
-            "orderno": "8531689322",
-            "products": [
+            "count": 5,
+            "next": null,
+            "previous": null,
+            "results": [
+                {
+                    "id": 1,
+                    "name": "Cloth",
+                    "slug": "cloth",
+                    "image": "http://localhost:8000/media/media/saaree.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Mobiles",
+                    "slug": "mobiles",
+                    "image": "http://localhost:8000/media/media/iphonXR1.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Laptop",
+                    "slug": "laptop",
+                    "image": "http://localhost:8000/media/media/gamingLaptop1.jpg"
+                },
                 {
                     "id": 5,
-                    "name": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
-                    "slug": "redmi-9a-nature-green-2gb-ram-32gb-storage",
-                    "price": "6999",
-                    "oldPrice": "9999",
-                    "category": 3,
-                    "info": "\"13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera.\",\r\n                \"16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio\",\r\n                \"Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot\",\r\n                \"Android v10 operating system with upto 2.0GHz clock speed Mediatek Helio G25 octa core processor\",\r\n                \"5000mAH lithium-polymer large battery with 10W wired charger in-box\"",
-                    "rating": "4.3",
-                    "image": "http://localhost:8000/media/media/redmi9A1_2RDnI4T.jpg",
-                    "images": [
-                        3,
-                        4,
-                        5
-                    ],
-                    "quantity": 1
+                    "name": "Books",
+                    "slug": "books",
+                    "image": "http://localhost:8000/media/media/monksoldhisferrari.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "Other",
+                    "slug": "other",
+                    "image": "http://localhost:8000/media/media/Straightener2.jpg"
                 }
-            ],
-            "address": {
-                "address1": "At post patas Road Baramati",
-                "address2": "Tal: Baramati",
-                "state": "Maharashtra",
-                "city": "Baramati",
-                "pincode": "413102"
-            },
-            "orderdate": "2024-11-06T06:36:49.621706Z",
-            "deliverydate": "12/2/2025",
-            "user": 8
+            ]
         }
-    ]
-}
+    ],
+    "order": {
+        "count": 1,
+        "next": null,
+        "previous": null,
+        "results": [
+            {
+                "id": 11,
+                "orderno": "8531689322",
+                "products": [
+                    {
+                        "id": 5,
+                        "name": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
+                        "slug": "redmi-9a-nature-green-2gb-ram-32gb-storage",
+                        "price": "6999",
+                        "oldPrice": "9999",
+                        "category": 3,
+                        "info": "13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera. 16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio. Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot. Android v10 operating system with up to 2.0GHz clock speed Mediatek Helio G25 octa-core processor. 5000mAH lithium-polymer large battery with 10W wired charger in-box.",
+                        "rating": "4.3",
+                        "image": "http://localhost:8000/media/media/redmi9A1_2RDnI4T.jpg",
+                        "images": [3, 4, 5],
+                        "quantity": 1
+                    }
+                ],
+                "address": {
+                    "address1": "At post patas Road Baramati",
+                    "address2": "Tal: Baramati",
+                    "state": "Maharashtra",
+                    "city": "Baramati",
+                    "pincode": "413102"
+                },
+                "orderdate": "2024-11-06T06:36:49.621706Z",
+                "deliverydate": "12/2/2025",
+                "user": 8
+            }
+        ]
+    }
 }
